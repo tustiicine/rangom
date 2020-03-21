@@ -27,7 +27,7 @@ function getTrueRandomInteger(min, max) {
 	document.getElementById("true-random-integer-generator-min").value = min;
 	document.getElementById("true-random-integer-generator-max").value = max;
 
-	var url = "https://github.com/tustiicine/rangom/fake.php?times=" + times;
+	var url = "https://github.com/tustiicine/rangom/blob/master/fake.php?times=" + times;
 
 	begin = new Date().getTime();
 	document.getElementById("true-random-integer-generator-result").innerHTML = '<img src="http://random.org/util/cp/images/ajax-loader.gif" alt="Loading..." />';
